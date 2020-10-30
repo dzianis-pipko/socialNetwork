@@ -1,0 +1,1849 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./css/style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+   <link href="./libs/fontawesome/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+   <div class="container">
+      <!-- Section 1 -->
+      <header class="nav-wrapper">
+         <menu class="top-menu">
+            <li class="top-menu__item top-menu__item1">
+               <a class="top-menu__link" href="#">
+                  <p class="top-menu__logo">social ui</p>
+               </a>
+            </li>
+            <li class="top-menu__item top-menu__item2">
+               <a class="top-menu__link" href="#">
+                  <i class="fas fa-bell indicator-active">
+                     <div class="indicator-wrapper">
+                        <span class="indicator">1</span>
+                     </div>
+                  </i>
+               </a>
+            </li>
+            <li class="top-menu__item top-menu__item3">
+               <a class="top-menu__link" href="#">
+                  <i class="fas fa-user-friends">
+                     <div class="indicator-wrapper">
+                        <span class="indicator">1</span>
+                     </div>
+                  </i>
+               </a>
+            </li>
+            <li class="top-menu__item top-menu__item4">
+               <a class="top-menu__link" href="#">
+                  <i class="fas fa-comments">
+                     <div class="indicator-wrapper">
+                        <span class="indicator">1</span>
+                     </div>
+                  </i>
+               </a>
+            </li>
+            <li class="top-menu__item top-menu__item5">
+               <div class="top-menu__wrapper-user">
+                  <p class="top-menu__user-name">John Doe</p>
+                  <i class="far fa-user-circle"></i>
+                  <a class="top-menu__sort-dovn">
+                     <i class="fas fa-sort-down"></i>
+                  </a>
+               </div>
+            </li>
+            <li class="top-menu__item top-menu__item6">
+               <a class="top-menu__link" href="#">
+                  <i class="fas fa-search"></i>
+               </a>
+            </li>
+            <li class="top-menu__item top-menu__item7">
+               <a class="top-menu__link" href="#">
+                  <i class="fas fa-sign-out-alt"></i>
+               </a>
+            </li>
+         </menu>
+         <div class="bottom-nav">
+            <nav class="navigation">
+               <ul class="navigation__wrapper">
+                  <li class="navigation__item">
+                     <a href="#" class="navigation__link tab-active">Dialogues</a>
+                  </li>
+                  <li class="navigation__item">
+                     <a href="#" class="navigation__link">Photos</a>
+                  </li>
+                  <li class="navigation__item">
+                     <a href="#" class="navigation__link">Videos</a>
+                  </li>
+                  <li class="navigation__item">
+                     <a href="#" class="navigation__link">Music</a>
+                  </li>
+                  <li class="navigation__item">
+                     <a href="#" class="navigation__link">Communities</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <!-- Section 2 -->
+      <section class="user-information">
+         <div class="user-information__item ">
+            <div class="user-information__wrap-img">
+               <img src="./libs/img/86.jpg" alt="user-avatar">
+            </div>
+            <div class="user-information__wrap-text">
+               <span class="user-information__wrap-title">
+                  <h1>John Doe</h1>
+                  <i class="fas fa-check-circle"></i>
+               </span>
+               <p class="user-information__description">
+                  Lorem ipsum dolor sit amet, consectetur<br>
+                  adipisicing elit, sed aliqua.
+               </p>
+            </div>
+         </div>
+         <div class="user-information__item">
+            <div class="user-information__wrap-count">
+               <span>1121</span>
+               <p>Followers</p>
+            </div>
+            <div class="user-information__wrap-count">
+               <span>5,356</span>
+               <p>Following</p>
+            </div>
+            <div class="user-information__wrap-count">
+               <span>502</span>
+               <p>Photos</p>
+            </div>
+            <div class="user-information__wrap-count">
+               <span>789</span>
+               <p>Videos</p>
+            </div>
+         </div>
+         <div class="user-information__item">
+            <button class="user-information__btn-send">Send Message</button>
+            <button class="user-information__btn-add">Add Friend</button>
+         </div>
+      </section>
+      <!-- Section 3 -->
+      <div class="mobil-card">
+         <section class="activity-feed">
+            <div class="activity-feed__wrap-title">
+               <h1>Activity Feed</h1>
+               <a href="#" class="activity-feed__cog-link">
+                  <i class="fas fa-cog"></i>
+               </a>
+            </div>
+            <div class="activity-feed__wrap-feed">
+               <div class="activity-feed__wrap-decor">
+                  <i class="fas fa-images"></i>
+                  <span class="activity-feed__decor"></span>
+               </div>
+               <h3 class="activity-feed__description">
+                  <span><a href="#">Kevin Ertan</a></span><br>
+                  Added 4 photos to album
+                  <span><a href="#">Summer</a></span>
+               </h3>
+               <div class="activity-feed__wrap-images">
+                  <div class="activity-feed__position-img">
+                     <img src="./libs/img/s1.jpg" alt="city">
+                  </div>
+                  <div class="activity-feed__position-img">
+                     <img src="./libs/img/s2.jpg" alt="city">
+                  </div>
+                  <div class="activity-feed__position-img">
+                     <img src="./libs/img/s3.jpg" alt="city">
+                  </div>
+                  <div class="activity-feed__position-img">
+                     <img src="./libs/img/s4.jpg" alt="city">
+                  </div>
+               </div>
+            </div>
+            <div class="activity-feed__wrap-feed">
+               <div class="activity-feed__wrap-decor">
+                  <i class="fas fa-thumbs-up"></i>
+                  <span class="activity-feed__decor"></span>
+               </div>
+               <h3 class="activity-feed__description">
+                  <span><a href="#">John Doe</a></span>
+                  liked 2 photos of
+                  <span><a href="#">Alex Wayne</a></span>
+               </h3>
+               <div class="activity-feed__wrap-images">
+                  <div class="activity-feed__position-img">
+                     <img src="./libs/img/city1.jpg" alt="city">
+                  </div>
+                  <div class="activity-feed__position-img">
+                     <img src="./libs/img/LONDON-CITY.jpg" alt="city">
+                  </div>
+               </div>
+            </div>
+            <div class="activity-feed__wrap-feed">
+               <div class="activity-feed__wrap-decor">
+                  <i class="fas fa-user"></i>
+                  <span class="activity-feed__decor"></span>
+               </div>
+               <h3 class="activity-feed__description">
+                  <span><a href="#">John Doe</a></span>
+                  added <span><a href="#">Alex Wayne</a></span> to friends
+               </h3>
+               <div class="activity-feed__wrap-images">
+               </div>
+            </div>
+            <div class="activity-feed__wrap-feed">
+               <div class="activity-feed__wrap-decor">
+                  <i class="far fa-calendar"></i>
+                  <span class="activity-feed__decor"></span>
+               </div>
+               <h3 class="activity-feed__description">
+                  <span><a href="#">Alex Gilev</a></span>
+                  created the <span><a href="#">Bowling</a></span> event
+               </h3>
+               <div class="activity-feed__wrap-images">
+               </div>
+            </div>
+            <div class="activity-feed__wrap-feed">
+               <div class="activity-feed__wrap-decor">
+                  <i class="fas fa-bullhorn"></i>
+                  <span class="activity-feed__decor"></span>
+               </div>
+               <h3 class="activity-feed__description">
+                  <span><a href="#">David Vane</a></span>
+                  shared a link:
+               </h3>
+               <div class="activity-feed__wrap-images">
+                  <div class="activity-feed__decor2"></div>
+                  <div class="activity-feed__position-img">
+                     <img src="./libs/img/17.jpg" alt="city">
+                  </div>
+                  <div class="activity-feed__wrap-image-desc">
+                     <h4><a href="#">Lorem ipsum dolor</a></h4>
+                     <P>Lorem ipsum dolor sit amet,<br>
+                        consectetur adipisicing ips...
+                     </P>
+                  </div>
+                  <!--  -->
+               </div>
+            </div>
+            <div class="activity-feed__wrap-show">
+               <a href="#" class="activity-feed__show">
+                  Show earlier activity
+                  <i class="fas fa-caret-down"></i>
+               </a>
+            </div>
+         </section>
+         <section class="people-to-follow">
+            <div class="people-to-follow__wrap-title">
+               <h1 class="">People to Follow</h1>
+            </div>
+            <div class="people-to-follow__wrap-items">
+               <div class="people-to-follow__item online online-mobil">
+                  <div class="people-to-follow__wrap-image">
+                     <img src="./libs/img/28.jpg" alt="people">
+                     <span class="people-to-follow__online"></span>
+                  </div>
+                  <div class="people-to-follow__wrap-descriptions">
+                     <div class="people-to-follow__wrapper-title">
+                        <h2>Alex Wayne</h2>
+                        <i class="fas fa-mobile-alt"></i>
+                     </div>
+                     <p>Artist</p>
+                  </div>
+                  <button class="people-to-follow__button">
+                     + add
+                  </button>
+               </div>
+               <!--  -->
+               <div class="people-to-follow__item online">
+                  <div class="people-to-follow__wrap-image">
+                     <img src="./libs/img/3.jpg" alt="people">
+                     <span class="people-to-follow__online"></span>
+                  </div>
+                  <div class="people-to-follow__wrap-descriptions">
+                     <div class="people-to-follow__wrapper-title">
+                        <h2>David Vane</h2>
+                        <i class="fas fa-mobile-alt"></i>
+                     </div>
+                     <p>Out of town</p>
+                  </div>
+                  <button class="people-to-follow__button">
+                     + add
+                  </button>
+               </div>
+               <!--  -->
+               <div class="people-to-follow__item">
+                  <div class="people-to-follow__wrap-image">
+                     <img src="./libs/img/81.jpg" alt="people">
+                     <span class="people-to-follow__online"></span>
+                  </div>
+                  <div class="people-to-follow__wrap-descriptions">
+                     <div class="people-to-follow__wrapper-title">
+                        <h2>Kevin Ertan</h2>
+                        <i class="fas fa-mobile-alt"></i>
+                     </div>
+                     <p>Don’t sleep</p>
+                  </div>
+                  <button class="people-to-follow__button">
+                     + add
+                  </button>
+               </div>
+               <!--  -->
+               <div class="people-to-follow__item online online-mobil">
+                  <div class="people-to-follow__wrap-image">
+                     <img src="./libs/img/88.jpg" alt="people">
+                     <span class="people-to-follow__online"></span>
+                  </div>
+                  <div class="people-to-follow__wrap-descriptions">
+                     <div class="people-to-follow__wrapper-title">
+                        <h2>Alex Wayne</h2>
+                        <i class="fas fa-mobile-alt"></i>
+                     </div>
+                     <p>Artist</p>
+                  </div>
+                  <button class="people-to-follow__button">
+                     + add
+                  </button>
+               </div>
+               <!--  -->
+               <div class="people-to-follow__item">
+                  <div class="people-to-follow__wrap-image">
+                     <img src="./libs/img/66.jpg" alt="people">
+                     <span class="people-to-follow__online"></span>
+                  </div>
+                  <div class="people-to-follow__wrap-descriptions">
+                     <div class="people-to-follow__wrapper-title">
+                        <h2>Jane Doe</h2>
+                        <i class="fas fa-mobile-alt"></i>
+                     </div>
+                     <p>Artist</p>
+                  </div>
+                  <button class="people-to-follow__button">
+                     + add
+                  </button>
+               </div>
+               <!--  -->
+               <div class="people-to-follow__item online online-mobil">
+                  <div class="people-to-follow__wrap-image">
+                     <img src="./libs/img/42.jpg" alt="people">
+                     <span class="people-to-follow__online"></span>
+                  </div>
+                  <div class="people-to-follow__wrap-descriptions">
+                     <div class="people-to-follow__wrapper-title">
+                        <h2>Alexander Wilk...</h2>
+                        <i class="fas fa-mobile-alt"></i>
+                     </div>
+                     <p>Stay Hungry</p>
+                  </div>
+                  <button class="people-to-follow__button">
+                     + add
+                  </button>
+               </div>
+               <!--  -->
+            </div>
+            <div class="activity-feed__wrap-show">
+               <a href="#" class="activity-feed__show">
+                  <p>Show <span>10</span> more</p>
+                  <i class="fas fa-caret-down"></i>
+               </a>
+            </div>
+         </section>
+         <section class="mobile-chat mobile-chat__active-online">
+            <div class="mobile-chat__header">
+               <div class="mobile-chat__wrap-image">
+                  <img src="./libs/img/81.jpg" alt="people">
+               </div>
+               <div class="mobile-chat__wrap-title">
+                  <h1>Alex Wayne</h1>
+                  <span class="mobile-chat__online"></span>
+               </div>
+               <div class="mobile-chat__wrap-nav">
+                  <a href="#">
+                     <i class="fas fa-cog"></i>
+                  </a>
+                  <a href="#">
+                     <i class="far fa-window-maximize"></i>
+                  </a>
+                  <a href="#">
+                     <i class="fas fa-times"></i>
+                  </a>
+               </div>
+            </div>
+            <!-- mobile-chat__messages -->
+            <div class="mobile-chat__messages">
+               <!--  -->
+               <div class="message__item message__item--incoming">
+                  <div class="message__wrapper">
+                     <div class="message__wrapper-text">
+                        <p>
+                           Vestibulum ante ipsum<br>
+                           primis in faucibus.
+                        </p>
+                     </div>
+                     <div class="message__wrapper-decor"></div>
+                  </div>
+                  <p class="message__data">
+                     Sat,
+                     <span>Aug </span>
+                     <span>23</span>,
+                     <span> 1</span>:
+                     <span>08 </span>
+                     <span>PM</span>
+                  </p>
+               </div>
+               <!--  -->
+               <div class="message__item message__item--incoming">
+                  <div class="message__wrapper">
+                     <div class="message__wrapper-text">
+                        <p>
+                           Vestibulum ante ipsum<br>
+                           primis in faucibus.
+                        </p>
+                     </div>
+                     <div class="message__wrapper-decor"></div>
+                  </div>
+                  <p class="message__data">
+                     Sat,
+                     <span>Aug </span>
+                     <span>23</span>,
+                     <span> 1</span>:
+                     <span>08 </span>
+                     <span>PM</span>
+                  </p>
+               </div>
+               <!--  -->
+               <div class="message__item message__item--incoming">
+                  <div class="message__wrapper">
+                     <div class="message__wrapper-text">
+                        <p>
+                           Cras ultricies ligula.
+                        </p>
+                     </div>
+                     <div class="message__wrapper-decor"></div>
+                  </div>
+                  <p class="message__data">
+                     Sat,
+                     <span>Aug </span>
+                     <span>23</span>,
+                     <span> 1</span>:
+                     <span>08 </span>
+                     <span>PM</span>
+                  </p>
+               </div>
+               <!--  -->
+               <div class="message__item message__item--outgoing">
+                  <div class="message__wrapper">
+                     <div class="message__wrapper-text">
+                        <p>
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget
+                           malesuada. Vivamus suscipit tortor eget felis porttitor.
+                        </p>
+                     </div>
+                     <div class="message__wrapper-decor"></div>
+                  </div>
+                  <p class="message__data">
+                     Sat,
+                     <span>Aug </span>
+                     <span>23</span>,
+                     <span> 1</span>:
+                     <span>08 </span>
+                     <span>PM</span>
+                  </p>
+               </div>
+               <!--  -->
+               <div class="section-day__wrap">
+                  <span class="section-day__decor"></span>
+                  <p class="section-day__data">
+                     <span>Sunday</span>,
+                     <span>August</span>
+                     <span>24</span>
+                  </p>
+                  <span class="section-day__decor"></span>
+               </div>
+               <!--  -->
+               <div class="message__item message__item--incoming message__item--exclamation">
+                  <div class="message__wrapper">
+                     <div class="message__wrapper-text">
+                        <p>
+                           Cras ultricies ligula.
+                        </p>
+                     </div>
+                     <div class="message__wrapper-decor"></div>
+                     <i class="fas fa-exclamation-circle"></i>
+                  </div>
+                  <p class="message__data">
+                     Sat,
+                     <span>Aug </span>
+                     <span>23</span>,
+                     <span> 1</span>:
+                     <span>08 </span>
+                     <span>PM</span>
+                  </p>
+               </div>
+               <!--  -->
+               <div class="message__item message__item--outgoing">
+                  <div class="message__wrapper">
+                     <div class="message__wrapper-text">
+                        <p>
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget
+                           malesuada. Vivamus suscipit tortor eget felis porttitor.
+                        </p>
+                     </div>
+                     <div class="message__wrapper-decor"></div>
+                  </div>
+                  <p class="message__data">
+                     Sat,
+                     <span>Aug </span>
+                     <span>23</span>,
+                     <span> 1</span>:
+                     <span>08 </span>
+                     <span>PM</span>
+                  </p>
+               </div>
+               <!--  -->
+               <div class="message__item message__item--incoming">
+                  <div class="message__wrapper">
+                     <div class="message__wrapper-text">
+                        <p>
+                           Vestibulum ante ipsum<br>
+                           primis in faucibus.
+                        </p>
+                     </div>
+                     <div class="message__wrapper-decor"></div>
+                  </div>
+                  <p class="message__data">
+                     Sat,
+                     <span>Aug </span>
+                     <span>23</span>,
+                     <span> 1</span>:
+                     <span>08 </span>
+                     <span>PM</span>
+                  </p>
+               </div>
+               <!--  -->
+            </div>
+            <!-- //mobile-chat__messages -->
+            <form class="mobile-chat__form" action="#">
+               <button class="mobile-chat__button">
+                  <i class="far fa-grin-alt"></i>
+               </button>
+               <div class="mobile-chat__wrap-input">
+                  <input type="text" name="text" value="" class="mobile-chat__input">
+               </div>
+               <div class="mobile-chat__wrap-input">
+                  <input type="file" name="file" value="" id="mobile-chat__input-file"
+                     class="mobile-chat__input input-file"
+                     accept=".jpg, .jpeg, .png, .gif, .bmp, .doc, .docx, .xls, .xlsx, .txt, .tar, .zip, .7z, .7zip">
+                  <label class="input-file__label" for="mobile-chat__input-file">
+                     <i class="fas fa-paperclip"></i>
+                  </label>
+               </div>
+            </form>
+         </section>
+      </div>
+      <!-- Section 4 -->
+      <section class="messages">
+         <aside class="messages-aside">
+            <div class="messages-aside__header">
+               <h1>Dialogues (<span>2</span>)</h1>
+               <div class="mssages-aside__wrap-links">
+                  <a href="#" class="mssages-aside__link">
+                     <i class="fas fa-search"></i>
+                  </a>
+                  <a href="#" class="mssages-aside__link">
+                     <i class="fas fa-volume-off"></i>
+                  </a>
+                  <a href="#" class="mssages-aside__link">
+                     <i class="fas fa-exclamation-triangle"></i>
+                  </a>
+               </div>
+            </div>
+            <div class="messages-aside__bottom-decor"></div>
+            <!--  -->
+            <div class="messages-aside__wrapper-items">
+               <a href="#" class="messages-aside__item ">
+                  <div class="messages-aside__wrap-img">
+                     <img src="./libs/img/17.jpg" alt="user">
+                     <span class="messages-aside__online"></span>
+                  </div>
+                  <div class="messages-aside__wrap-text">
+                     <h3>Alex Wayne</h3>
+                     <div class="messages-aside__wrap-description messages-aside__wrap-description--outgoing">
+                        <p>Lorem ipsum dolor</p>
+                        <div class="messages-aside__wrap-incoming">
+                           <div class="messages-aside__wrap-incoming-items">
+                              <div class="messages-aside__wrap-incoming-img">
+                                 <img src="./libs/img/86.jpg" alt="user">
+                              </div>
+                              <div class="messages-aside__wrap-incoming-wrapText">
+                                 <span class="messages-aside__wrap-incoming-text">
+                                    Praesent sapien massa.
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="messages-aside__wrap-time messages-aside__wrap-time--time-today">
+                     <p>
+                        <span class="messages-aside__span-time">
+                           <span>11</span>
+                           :
+                           <span>55</span>
+                           <span>PM</span>
+                        </span>
+                        <span class="messages-aside__span-month">
+                           <span>Jul</span>
+                           <span>19</span>
+                        </span>
+                        <span class="messages-aside__span-month-and-year">
+                           <span>Jun</span>
+                           <span>30</span>,
+                           <span>12</span>
+                        </span>
+                     </p>
+                     <div class="messages-aside__wrap-message-count">
+                        <div class="messages-aside__message-count">
+                           <span>1</span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <!--  -->
+               <a href="#"
+                  class="messages-aside__item messages-aside__item--there-are-messages messages-aside__item--online">
+                  <div class="messages-aside__wrap-img">
+                     <img src="./libs/img/28.jpg" alt="user">
+                     <span class="messages-aside__online"></span>
+                  </div>
+                  <div class="messages-aside__wrap-text">
+                     <h3>Alex Wayne</h3>
+                     <div class="messages-aside__wrap-description messages-aside__wrap-description--outgoing">
+                        <p>Lorem ipsum dolor &#128552;</p>
+                        <div class="messages-aside__wrap-incoming">
+                           <div class="messages-aside__wrap-incoming-items">
+                              <div class="messages-aside__wrap-incoming-img">
+                                 <img src="./libs/img/86.jpg" alt="user">
+                              </div>
+                              <div class="messages-aside__wrap-incoming-wrapText">
+                                 <span class="messages-aside__wrap-incoming-text">
+                                    Praesent sapien massa.
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="messages-aside__wrap-time messages-aside__wrap-time--time-today">
+                     <p>
+                        <span class="messages-aside__span-time">
+                           <span>11</span>
+                           :
+                           <span>55</span>
+                           <span>PM</span>
+                        </span>
+                        <span class="messages-aside__span-month">
+                           <span>Jul</span>
+                           <span>19</span>
+                        </span>
+                        <span class="messages-aside__span-month-and-year">
+                           <span>Jun</span>
+                           <span>30</span>,
+                           <span>12</span>
+                        </span>
+                     </p>
+                     <div class="messages-aside__wrap-message-count">
+                        <div class="messages-aside__message-count">
+                           <span>1</span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <!--  -->
+               <a href="#" class="messages-aside__item">
+                  <div class="messages-aside__wrap-img">
+                     <img src="./libs/img/3.jpg" alt="user">
+                     <span class="messages-aside__online"></span>
+                  </div>
+                  <div class="messages-aside__wrap-text">
+                     <h3>David Vane</h3>
+                     <div class="messages-aside__wrap-description messages-aside__wrap-description--outgoing">
+                        <p>Vestibulum ac diam sit met...</p>
+                        <div class="messages-aside__wrap-incoming">
+                           <div class="messages-aside__wrap-incoming-items">
+                              <div class="messages-aside__wrap-incoming-img">
+                                 <img src="./libs/img/17.jpg" alt="user">
+                              </div>
+                              <div class="messages-aside__wrap-incoming-wrapText">
+                                 <span class="messages-aside__wrap-incoming-text">
+                                    Praesent sapien massa.
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="messages-aside__wrap-time messages-aside__wrap-time--time-today">
+                     <p>
+                        <span class="messages-aside__span-time">
+                           <span>11</span>
+                           :
+                           <span>39</span>
+                           <span>PM</span>
+                        </span>
+                        <span class="messages-aside__span-month">
+                           <span>Jul</span>
+                           <span>19</span>
+                        </span>
+                        <span class="messages-aside__span-month-and-year">
+                           <span>Jun</span>
+                           <span>30</span>,
+                           <span>12</span>
+                        </span>
+                     </p>
+                     <div class="messages-aside__wrap-message-count">
+                        <div class="messages-aside__message-count">
+                           <span>1</span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <!--  -->
+               <a href="#" class="messages-aside__item">
+                  <div class="messages-aside__wrap-img">
+                     <img src="./libs/img/42.jpg" alt="user">
+                     <span class="messages-aside__online"></span>
+                  </div>
+                  <div class="messages-aside__wrap-text">
+                     <h3>Nancy Dilan</h3>
+                     <div class="messages-aside__wrap-description messages-aside__wrap-description--outgoing">
+                        <p>Quam vehicula. &#128546;</p>
+                        <div class="messages-aside__wrap-incoming">
+                           <div class="messages-aside__wrap-incoming-items">
+                              <div class="messages-aside__wrap-incoming-img">
+                                 <img src="./libs/img/86.jpg" alt="user">
+                              </div>
+                              <div class="messages-aside__wrap-incoming-wrapText">
+                                 <span class="messages-aside__wrap-incoming-text">
+                                    Praesent sapien massa.
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="messages-aside__wrap-time messages-aside__wrap-time--time-today">
+                     <p>
+                        <span class="messages-aside__span-time">
+                           <span>0</span>
+                           :
+                           <span>8</span>
+                           <span>AM</span>
+                        </span>
+                        <span class="messages-aside__span-month">
+                           <span>Jul</span>
+                           <span>19</span>
+                        </span>
+                        <span class="messages-aside__span-month-and-year">
+                           <span>Jun</span>
+                           <span>30</span>,
+                           <span>12</span>
+                        </span>
+                     </p>
+                     <div class="messages-aside__wrap-message-count">
+                        <div class="messages-aside__message-count">
+                           <span>1</span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <!--  -->
+               <a href="#" class="messages-aside__item messages-aside__item--online">
+                  <div class="messages-aside__wrap-img">
+                     <img src="./libs/img/66.jpg" alt="user">
+                     <span class="messages-aside__online"></span>
+                  </div>
+                  <div class="messages-aside__wrap-text">
+                     <h3>Norman Kenney</h3>
+                     <div class="messages-aside__wrap-description messages-aside__wrap-description--outgoing">
+                        <p>Nulla quis lorem ut libero...</p>
+                        <div class="messages-aside__wrap-incoming">
+                           <div class="messages-aside__wrap-incoming-items">
+                              <div class="messages-aside__wrap-incoming-img">
+                                 <img src="./libs/img/3.jpg" alt="user">
+                              </div>
+                              <div class="messages-aside__wrap-incoming-wrapText">
+                                 <span class="messages-aside__wrap-incoming-text">
+                                    Praesent sapien massa.
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="messages-aside__wrap-time messages-aside__wrap-time--month">
+                     <p>
+                        <span class="messages-aside__span-time">
+                           <span>11</span>
+                           :
+                           <span>55</span>
+                           <span>PM</span>
+                        </span>
+                        <span class="messages-aside__span-month">
+                           <span>Jul</span>
+                           <span>19</span>
+                        </span>
+                        <span class="messages-aside__span-month-and-year">
+                           <span>Jun</span>
+                           <span>30</span>,
+                           <span>12</span>
+                        </span>
+                     </p>
+                     <div class="messages-aside__wrap-message-count">
+                        <div class="messages-aside__message-count">
+                           <span>1</span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <!--  -->
+               <a href="#"
+                  class="messages-aside__item messages-aside__item--there-are-messages messages-aside__item--online">
+                  <div class="messages-aside__wrap-img">
+                     <img src="./libs/img/81.jpg" alt="user">
+                     <span class="messages-aside__online"></span>
+                  </div>
+                  <div class="messages-aside__wrap-text">
+                     <h3>Alex Wayne</h3>
+                     <div class="messages-aside__wrap-description messages-aside__wrap-description--outgoing">
+                        <p>Lorem ipsum dolor &#128526;</p>
+                        <div class="messages-aside__wrap-incoming">
+                           <div class="messages-aside__wrap-incoming-items">
+                              <div class="messages-aside__wrap-incoming-img">
+                                 <img src="./libs/img/28.jpg" alt="user">
+                              </div>
+                              <div class="messages-aside__wrap-incoming-wrapText">
+                                 <span class="messages-aside__wrap-incoming-text">
+                                    Praesent sapien massa.
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="messages-aside__wrap-time messages-aside__wrap-time--month">
+                     <p>
+                        <span class="messages-aside__span-time">
+                           <span>11</span>
+                           :
+                           <span>55</span>
+                           <span>PM</span>
+                        </span>
+                        <span class="messages-aside__span-month">
+                           <span>Jul</span>
+                           <span>16</span>
+                        </span>
+                        <span class="messages-aside__span-month-and-year">
+                           <span>Jun</span>
+                           <span>30</span>,
+                           <span>12</span>
+                        </span>
+                     </p>
+                     <div class="messages-aside__wrap-message-count">
+                        <div class="messages-aside__message-count">
+                           <span>3</span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <!--  -->
+               <a href="#" class="messages-aside__item">
+                  <div class="messages-aside__wrap-img">
+                     <img src="./libs/img/86.jpg" alt="user">
+                     <span class="messages-aside__online"></span>
+                  </div>
+                  <div class="messages-aside__wrap-text">
+                     <h3>Mike Dorn</h3>
+                     <div class="messages-aside__wrap-description messages-aside__wrap-description--incoming">
+                        <p>Lorem ipsum dolor &#128526;</p>
+                        <div class="messages-aside__wrap-incoming">
+                           <div class="messages-aside__wrap-incoming-items">
+                              <div class="messages-aside__wrap-incoming-img">
+                                 <img src="./libs/img/28.jpg" alt="user">
+                              </div>
+                              <div class="messages-aside__wrap-incoming-wrapText">
+                                 <span class="messages-aside__wrap-incoming-text">
+                                    Praesent sapien massa.
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="messages-aside__wrap-time messages-aside__wrap-time--month">
+                     <p>
+                        <span class="messages-aside__span-time">
+                           <span>11</span>
+                           :
+                           <span>55</span>
+                           <span>PM</span>
+                        </span>
+                        <span class="messages-aside__span-month">
+                           <span>Jul</span>
+                           <span>2</span>
+                        </span>
+                        <span class="messages-aside__span-month-and-year">
+                           <span>Jun</span>
+                           <span>30</span>,
+                           <span>12</span>
+                        </span>
+                     </p>
+                     <div class="messages-aside__wrap-message-count">
+                        <div class="messages-aside__message-count">
+                           <span>3</span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <!--  -->
+               <a href="#" class="messages-aside__item">
+                  <div class="messages-aside__wrap-img">
+                     <img src="./libs/img/88.jpg" alt="user">
+                     <span class="messages-aside__online"></span>
+                  </div>
+                  <div class="messages-aside__wrap-text">
+                     <h3>Alex Wayne</h3>
+                     <div class="messages-aside__wrap-description messages-aside__wrap-description--outgoing">
+                        <p>Convallis a pellentesque...</p>
+                        <div class="messages-aside__wrap-incoming">
+                           <div class="messages-aside__wrap-incoming-items">
+                              <div class="messages-aside__wrap-incoming-img">
+                                 <img src="./libs/img/28.jpg" alt="user">
+                              </div>
+                              <div class="messages-aside__wrap-incoming-wrapText">
+                                 <span class="messages-aside__wrap-incoming-text">
+                                    Praesent sapien massa.
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="messages-aside__wrap-time messages-aside__wrap-time--month-and-year">
+                     <p>
+                        <span class="messages-aside__span-time">
+                           <span>11</span>
+                           :
+                           <span>55</span>
+                           <span>PM</span>
+                        </span>
+                        <span class="messages-aside__span-month">
+                           <span>Jul</span>
+                           <span>16</span>
+                        </span>
+                        <span class="messages-aside__span-month-and-year">
+                           <span>Jun</span>
+                           <span>30</span>,
+                           <span>12</span>
+                        </span>
+                     </p>
+                     <div class="messages-aside__wrap-message-count">
+                        <div class="messages-aside__message-count">
+                           <span>3</span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <!--  -->
+               <a href="#" class="messages-aside__item">
+                  <div class="messages-aside__wrap-img">
+                     <img src="./libs/img/66.jpg" alt="user">
+                     <span class="messages-aside__online"></span>
+                  </div>
+                  <div class="messages-aside__wrap-text">
+                     <h3>Anna Doe</h3>
+                     <div class="messages-aside__wrap-description messages-aside__wrap-description--outgoing">
+                        <p>Convallis a pellentesque...</p>
+                        <div class="messages-aside__wrap-incoming">
+                           <div class="messages-aside__wrap-incoming-items">
+                              <div class="messages-aside__wrap-incoming-img">
+                                 <img src="./libs/img/28.jpg" alt="user">
+                              </div>
+                              <div class="messages-aside__wrap-incoming-wrapText">
+                                 <span class="messages-aside__wrap-incoming-text">
+                                    Praesent sapien massa.
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="messages-aside__wrap-time messages-aside__wrap-time--month-and-year">
+                     <p>
+                        <span class="messages-aside__span-time">
+                           <span>11</span>
+                           :
+                           <span>55</span>
+                           <span>PM</span>
+                        </span>
+                        <span class="messages-aside__span-month">
+                           <span>Jul</span>
+                           <span>16</span>
+                        </span>
+                        <span class="messages-aside__span-month-and-year">
+                           <span>Jun</span>
+                           <span>29</span>,
+                           <span>11</span>
+                        </span>
+                     </p>
+                     <div class="messages-aside__wrap-message-count">
+                        <div class="messages-aside__message-count">
+                           <span>3</span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <!-- dubble -->
+               <a href="#" class="messages-aside__item ">
+                  <div class="messages-aside__wrap-img">
+                     <img src="./libs/img/17.jpg" alt="user">
+                     <span class="messages-aside__online"></span>
+                  </div>
+                  <div class="messages-aside__wrap-text">
+                     <h3>Alex Wayne</h3>
+                     <div class="messages-aside__wrap-description messages-aside__wrap-description--outgoing">
+                        <p>Lorem ipsum dolor</p>
+                        <div class="messages-aside__wrap-incoming">
+                           <div class="messages-aside__wrap-incoming-items">
+                              <div class="messages-aside__wrap-incoming-img">
+                                 <img src="./libs/img/86.jpg" alt="user">
+                              </div>
+                              <div class="messages-aside__wrap-incoming-wrapText">
+                                 <span class="messages-aside__wrap-incoming-text">
+                                    Praesent sapien massa.
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="messages-aside__wrap-time messages-aside__wrap-time--time-today">
+                     <p>
+                        <span class="messages-aside__span-time">
+                           <span>11</span>
+                           :
+                           <span>55</span>
+                           <span>PM</span>
+                        </span>
+                        <span class="messages-aside__span-month">
+                           <span>Jul</span>
+                           <span>19</span>
+                        </span>
+                        <span class="messages-aside__span-month-and-year">
+                           <span>Jun</span>
+                           <span>30</span>,
+                           <span>12</span>
+                        </span>
+                     </p>
+                     <div class="messages-aside__wrap-message-count">
+                        <div class="messages-aside__message-count">
+                           <span>1</span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <!--  -->
+               <a href="#"
+                  class="messages-aside__item messages-aside__item--there-are-messages messages-aside__item--online">
+                  <div class="messages-aside__wrap-img">
+                     <img src="./libs/img/28.jpg" alt="user">
+                     <span class="messages-aside__online"></span>
+                  </div>
+                  <div class="messages-aside__wrap-text">
+                     <h3>Alex Wayne</h3>
+                     <div class="messages-aside__wrap-description messages-aside__wrap-description--outgoing">
+                        <p>Lorem ipsum dolor &#128552;</p>
+                        <div class="messages-aside__wrap-incoming">
+                           <div class="messages-aside__wrap-incoming-items">
+                              <div class="messages-aside__wrap-incoming-img">
+                                 <img src="./libs/img/86.jpg" alt="user">
+                              </div>
+                              <div class="messages-aside__wrap-incoming-wrapText">
+                                 <span class="messages-aside__wrap-incoming-text">
+                                    Praesent sapien massa.
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="messages-aside__wrap-time messages-aside__wrap-time--time-today">
+                     <p>
+                        <span class="messages-aside__span-time">
+                           <span>11</span>
+                           :
+                           <span>55</span>
+                           <span>PM</span>
+                        </span>
+                        <span class="messages-aside__span-month">
+                           <span>Jul</span>
+                           <span>19</span>
+                        </span>
+                        <span class="messages-aside__span-month-and-year">
+                           <span>Jun</span>
+                           <span>30</span>,
+                           <span>12</span>
+                        </span>
+                     </p>
+                     <div class="messages-aside__wrap-message-count">
+                        <div class="messages-aside__message-count">
+                           <span>1</span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <!--  -->
+               <a href="#" class="messages-aside__item">
+                  <div class="messages-aside__wrap-img">
+                     <img src="./libs/img/3.jpg" alt="user">
+                     <span class="messages-aside__online"></span>
+                  </div>
+                  <div class="messages-aside__wrap-text">
+                     <h3>David Vane</h3>
+                     <div class="messages-aside__wrap-description messages-aside__wrap-description--outgoing">
+                        <p>Vestibulum ac diam sit met...</p>
+                        <div class="messages-aside__wrap-incoming">
+                           <div class="messages-aside__wrap-incoming-items">
+                              <div class="messages-aside__wrap-incoming-img">
+                                 <img src="./libs/img/17.jpg" alt="user">
+                              </div>
+                              <div class="messages-aside__wrap-incoming-wrapText">
+                                 <span class="messages-aside__wrap-incoming-text">
+                                    Praesent sapien massa.
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="messages-aside__wrap-time messages-aside__wrap-time--time-today">
+                     <p>
+                        <span class="messages-aside__span-time">
+                           <span>11</span>
+                           :
+                           <span>39</span>
+                           <span>PM</span>
+                        </span>
+                        <span class="messages-aside__span-month">
+                           <span>Jul</span>
+                           <span>19</span>
+                        </span>
+                        <span class="messages-aside__span-month-and-year">
+                           <span>Jun</span>
+                           <span>30</span>,
+                           <span>12</span>
+                        </span>
+                     </p>
+                     <div class="messages-aside__wrap-message-count">
+                        <div class="messages-aside__message-count">
+                           <span>1</span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <!--  -->
+               <a href="#" class="messages-aside__item">
+                  <div class="messages-aside__wrap-img">
+                     <img src="./libs/img/42.jpg" alt="user">
+                     <span class="messages-aside__online"></span>
+                  </div>
+                  <div class="messages-aside__wrap-text">
+                     <h3>Nancy Dilan</h3>
+                     <div class="messages-aside__wrap-description messages-aside__wrap-description--outgoing">
+                        <p>Quam vehicula. &#128546;</p>
+                        <div class="messages-aside__wrap-incoming">
+                           <div class="messages-aside__wrap-incoming-items">
+                              <div class="messages-aside__wrap-incoming-img">
+                                 <img src="./libs/img/86.jpg" alt="user">
+                              </div>
+                              <div class="messages-aside__wrap-incoming-wrapText">
+                                 <span class="messages-aside__wrap-incoming-text">
+                                    Praesent sapien massa.
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="messages-aside__wrap-time messages-aside__wrap-time--time-today">
+                     <p>
+                        <span class="messages-aside__span-time">
+                           <span>0</span>
+                           :
+                           <span>8</span>
+                           <span>AM</span>
+                        </span>
+                        <span class="messages-aside__span-month">
+                           <span>Jul</span>
+                           <span>19</span>
+                        </span>
+                        <span class="messages-aside__span-month-and-year">
+                           <span>Jun</span>
+                           <span>30</span>,
+                           <span>12</span>
+                        </span>
+                     </p>
+                     <div class="messages-aside__wrap-message-count">
+                        <div class="messages-aside__message-count">
+                           <span>1</span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <!--  -->
+               <a href="#" class="messages-aside__item messages-aside__item--online">
+                  <div class="messages-aside__wrap-img">
+                     <img src="./libs/img/66.jpg" alt="user">
+                     <span class="messages-aside__online"></span>
+                  </div>
+                  <div class="messages-aside__wrap-text">
+                     <h3>Norman Kenney</h3>
+                     <div class="messages-aside__wrap-description messages-aside__wrap-description--outgoing">
+                        <p>Nulla quis lorem ut libero...</p>
+                        <div class="messages-aside__wrap-incoming">
+                           <div class="messages-aside__wrap-incoming-items">
+                              <div class="messages-aside__wrap-incoming-img">
+                                 <img src="./libs/img/3.jpg" alt="user">
+                              </div>
+                              <div class="messages-aside__wrap-incoming-wrapText">
+                                 <span class="messages-aside__wrap-incoming-text">
+                                    Praesent sapien massa.
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="messages-aside__wrap-time messages-aside__wrap-time--month">
+                     <p>
+                        <span class="messages-aside__span-time">
+                           <span>11</span>
+                           :
+                           <span>55</span>
+                           <span>PM</span>
+                        </span>
+                        <span class="messages-aside__span-month">
+                           <span>Jul</span>
+                           <span>19</span>
+                        </span>
+                        <span class="messages-aside__span-month-and-year">
+                           <span>Jun</span>
+                           <span>30</span>,
+                           <span>12</span>
+                        </span>
+                     </p>
+                     <div class="messages-aside__wrap-message-count">
+                        <div class="messages-aside__message-count">
+                           <span>1</span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <!--  -->
+               <a href="#"
+                  class="messages-aside__item messages-aside__item--there-are-messages messages-aside__item--online">
+                  <div class="messages-aside__wrap-img">
+                     <img src="./libs/img/81.jpg" alt="user">
+                     <span class="messages-aside__online"></span>
+                  </div>
+                  <div class="messages-aside__wrap-text">
+                     <h3>Alex Wayne</h3>
+                     <div class="messages-aside__wrap-description messages-aside__wrap-description--outgoing">
+                        <p>Lorem ipsum dolor &#128526;</p>
+                        <div class="messages-aside__wrap-incoming">
+                           <div class="messages-aside__wrap-incoming-items">
+                              <div class="messages-aside__wrap-incoming-img">
+                                 <img src="./libs/img/28.jpg" alt="user">
+                              </div>
+                              <div class="messages-aside__wrap-incoming-wrapText">
+                                 <span class="messages-aside__wrap-incoming-text">
+                                    Praesent sapien massa.
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="messages-aside__wrap-time messages-aside__wrap-time--month">
+                     <p>
+                        <span class="messages-aside__span-time">
+                           <span>11</span>
+                           :
+                           <span>55</span>
+                           <span>PM</span>
+                        </span>
+                        <span class="messages-aside__span-month">
+                           <span>Jul</span>
+                           <span>16</span>
+                        </span>
+                        <span class="messages-aside__span-month-and-year">
+                           <span>Jun</span>
+                           <span>30</span>,
+                           <span>12</span>
+                        </span>
+                     </p>
+                     <div class="messages-aside__wrap-message-count">
+                        <div class="messages-aside__message-count">
+                           <span>3</span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <!--  -->
+               <a href="#" class="messages-aside__item">
+                  <div class="messages-aside__wrap-img">
+                     <img src="./libs/img/86.jpg" alt="user">
+                     <span class="messages-aside__online"></span>
+                  </div>
+                  <div class="messages-aside__wrap-text">
+                     <h3>Mike Dorn</h3>
+                     <div class="messages-aside__wrap-description messages-aside__wrap-description--incoming">
+                        <p>Lorem ipsum dolor &#128526;</p>
+                        <div class="messages-aside__wrap-incoming">
+                           <div class="messages-aside__wrap-incoming-items">
+                              <div class="messages-aside__wrap-incoming-img">
+                                 <img src="./libs/img/28.jpg" alt="user">
+                              </div>
+                              <div class="messages-aside__wrap-incoming-wrapText">
+                                 <span class="messages-aside__wrap-incoming-text">
+                                    Praesent sapien massa.
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="messages-aside__wrap-time messages-aside__wrap-time--month">
+                     <p>
+                        <span class="messages-aside__span-time">
+                           <span>11</span>
+                           :
+                           <span>55</span>
+                           <span>PM</span>
+                        </span>
+                        <span class="messages-aside__span-month">
+                           <span>Jul</span>
+                           <span>2</span>
+                        </span>
+                        <span class="messages-aside__span-month-and-year">
+                           <span>Jun</span>
+                           <span>30</span>,
+                           <span>12</span>
+                        </span>
+                     </p>
+                     <div class="messages-aside__wrap-message-count">
+                        <div class="messages-aside__message-count">
+                           <span>3</span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <!--  -->
+               <a href="#" class="messages-aside__item">
+                  <div class="messages-aside__wrap-img">
+                     <img src="./libs/img/88.jpg" alt="user">
+                     <span class="messages-aside__online"></span>
+                  </div>
+                  <div class="messages-aside__wrap-text">
+                     <h3>Alex Wayne</h3>
+                     <div class="messages-aside__wrap-description messages-aside__wrap-description--outgoing">
+                        <p>Convallis a pellentesque...</p>
+                        <div class="messages-aside__wrap-incoming">
+                           <div class="messages-aside__wrap-incoming-items">
+                              <div class="messages-aside__wrap-incoming-img">
+                                 <img src="./libs/img/28.jpg" alt="user">
+                              </div>
+                              <div class="messages-aside__wrap-incoming-wrapText">
+                                 <span class="messages-aside__wrap-incoming-text">
+                                    Praesent sapien massa.
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="messages-aside__wrap-time messages-aside__wrap-time--month-and-year">
+                     <p>
+                        <span class="messages-aside__span-time">
+                           <span>11</span>
+                           :
+                           <span>55</span>
+                           <span>PM</span>
+                        </span>
+                        <span class="messages-aside__span-month">
+                           <span>Jul</span>
+                           <span>16</span>
+                        </span>
+                        <span class="messages-aside__span-month-and-year">
+                           <span>Jun</span>
+                           <span>30</span>,
+                           <span>12</span>
+                        </span>
+                     </p>
+                     <div class="messages-aside__wrap-message-count">
+                        <div class="messages-aside__message-count">
+                           <span>3</span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <!--  -->
+               <a href="#" class="messages-aside__item">
+                  <div class="messages-aside__wrap-img">
+                     <img src="./libs/img/66.jpg" alt="user">
+                     <span class="messages-aside__online"></span>
+                  </div>
+                  <div class="messages-aside__wrap-text">
+                     <h3>Anna Doe</h3>
+                     <div class="messages-aside__wrap-description messages-aside__wrap-description--outgoing">
+                        <p>Convallis a pellentesque...</p>
+                        <div class="messages-aside__wrap-incoming">
+                           <div class="messages-aside__wrap-incoming-items">
+                              <div class="messages-aside__wrap-incoming-img">
+                                 <img src="./libs/img/28.jpg" alt="user">
+                              </div>
+                              <div class="messages-aside__wrap-incoming-wrapText">
+                                 <span class="messages-aside__wrap-incoming-text">
+                                    Praesent sapien massa.
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="messages-aside__wrap-time messages-aside__wrap-time--month-and-year">
+                     <p>
+                        <span class="messages-aside__span-time">
+                           <span>11</span>
+                           :
+                           <span>55</span>
+                           <span>PM</span>
+                        </span>
+                        <span class="messages-aside__span-month">
+                           <span>Jul</span>
+                           <span>16</span>
+                        </span>
+                        <span class="messages-aside__span-month-and-year">
+                           <span>Jun</span>
+                           <span>29</span>,
+                           <span>11</span>
+                        </span>
+                     </p>
+                     <div class="messages-aside__wrap-message-count">
+                        <div class="messages-aside__message-count">
+                           <span>3</span>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+            </div>
+         </aside>
+         <section class="messages-section">
+            <div class="messages-section__header">
+               <div class="messages-section__wrap-user-info messages-section__wrap-user-info--online">
+                  <div class="messages-section__wrap-header-image">
+                     <img src="./libs/img/81.jpg" alt="user">
+                  </div>
+                  <div class="messages-section__wrap-header-text">
+                     <h1>Alex Wayne</h1>
+                     <div class="messages-section__wrap-user-online">
+                        <div class="messages-section__wrap-user-online-desctop">
+                           <div class="messages-section__user-online">
+                              <i class="fas fa-mobile-alt"></i>
+                              <p>Online</p>
+                           </div>
+                        </div>
+                        <span class="messages-section__wrap-user-online-mobil"></span>
+                     </div>
+                  </div>
+               </div>
+               <div class="messages-section__header-options">
+                  <a href="#" class="messages-section__header-options-link">
+                     <i class="fas fa-user-plus"></i>
+                  </a>
+                  <a href="#" class="messages-section__header-options-link">
+                     <i class="fas fa-cog"></i>
+                  </a>
+                  <a href="#" class="messages-section__header-options-link">
+                     <i class="fas fa-times"></i>
+                  </a>
+               </div>
+            </div>
+            <form class="messages-section__form" action="#">
+               <div class="messages-section__wrap-input">
+                  <input type="text" name="text" value="" class="messages-section__input">
+               </div>
+               <button class="messages-section__send" type="submit" value="Send">Send</button>
+               <div class="messages-section__wrap-smile">
+                  <button class="messages-section__button-smile">
+                     <i class="far fa-grin-alt"></i>
+                  </button>
+                  <div class="messages-section__footer-decor"></div>
+                  <div class="messages-section__links-smile">
+                     <a href="#" class="">&#128527;</a>
+                     <a href="#" class="">&#128557;</a>
+                     <a href="#" class="">&#128545;</a>
+                     <a href="#" class="">&#9995;</a>
+                     <a href="#" class="">&#128522;</a>
+                     <a href="#" class="">&#128528;</a>
+                  </div>
+                  <div class="messages-section__attach">
+                     <input type="file" name="file" value="" id="messages-section__input-file"
+                        class="messages-section__input messages-section__input--file"
+                        accept=".jpg, .jpeg, .png, .gif, .bmp, .doc, .docx, .xls, .xlsx, .txt, .tar, .zip, .7z, .7zip">
+                     <label class="messages-section__input-file-label" for="messages-section__input-file">
+                        <span class="messages-section__desctop">Attach <i class="fas fa-sort-down"></i></span>
+                     </label>
+                  </div>
+               </div>
+               <div class="messages-section__attach messages-section__attach-mobil">
+                  <input type="file" name="file" value="" id="messages-section__input-file"
+                     class="messages-section__input messages-section__input--file"
+                     accept=".jpg, .jpeg, .png, .gif, .bmp, .doc, .docx, .xls, .xlsx, .txt, .tar, .zip, .7z, .7zip">
+                  <label class="messages-section__input-file-label" for="messages-section__input-file">
+                     <span class="messages-section__mobil"><i class="fas fa-paperclip"></i></span>
+                  </label>
+               </div>
+            </form>
+            <div class="messages-section__wrap-content">
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <!--  -->
+               <div class="messages-section__message-item messages-section__message-item--incoming">
+                  <div class="messages-section__wrap-user-img"></div>
+                  <div class="messages-section__message-wrapper">
+                     <div class="messages-section__message-wrapper-text">
+                        <p>
+                           Cras ultricies ligula. &#128523;
+                        </p>
+                        <div class="wrap-typing">
+                           ... <i class="fas fa-pencil-alt"></i>
+                        </div>
+                     </div>
+                     <div class="messages-section__message-wrapper-decor"></div>
+                  </div>
+                  <p class="messages-section__message-data messages-section__message-data--minutes">
+                     <span class="month-day-time">
+                        <span>Sat </span>,
+                        <span>Aug </span>
+                        <span>23</span>,
+                        <span> 1</span>:
+                        <span>08 </span>
+                        <span>PM</span>
+                     </span>
+                     <span class="minutes">
+                        <span>5</span>
+                        <span>minutes ago</span>
+                     </span>
+                     <span class="time">
+                        <span>3</span>:
+                        <span>10</span>
+                        <span> PM</span>
+                     </span>
+                     <span class="typing">
+                        <span>Typing...</span>
+                     </span>
+                  </p>
+               </div>
+               <!--  -->
+               <div class="messages-section__message-item messages-section__message-item--outgoing">
+                  <div class="messages-section__wrap-user-img"></div>
+                  <div class="messages-section__message-wrapper">
+                     <div class="messages-section__message-wrapper-text">
+                        <p>
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget
+                           malesuada. Vivamus suscipit tortor eget felis porttitor.&#9996;
+                        </p>
+                        <div class="wrap-typing">
+                           ... <i class="fas fa-pencil-alt"></i>
+                        </div>
+                     </div>
+                     <div class="messages-section__message-wrapper-decor"></div>
+                  </div>
+                  <p class="messages-section__message-data messages-section__message-data--month-day-time">
+                     <span class="month-day-time">
+                        <span>Sat </span>,
+                        <span>Aug </span>
+                        <span>23</span>,
+                        <span> 1</span>:
+                        <span>10 </span>
+                        <span>PM</span>
+                     </span>
+                     <span class="minutes">
+                        <span>5</span>
+                        <span>minutes ago</span>
+                     </span>
+                     <span class="time">
+                        <span>3</span>:
+                        <span>10</span>
+                        <span> PM</span>
+                     </span>
+                     <span class="typing">
+                        <span>Typing...</span>
+                     </span>
+                  </p>
+               </div>
+               <!--  -->
+               <div class="messages-section__message-item messages-section__message-item--incoming">
+                  <div class="messages-section__wrap-user-img"></div>
+                  <div class="messages-section__message-wrapper">
+                     <div class="messages-section__message-wrapper-text">
+                        <p>
+                           <img src="./libs/img/city1.jpg" alt="world">
+                           <img src="./libs/img/LONDON-CITY.jpg" alt="world">
+                           <img src="./libs/img/s3.jpg" alt="world">
+                        </p>
+                        <div class="wrap-typing">
+                           ... <i class="fas fa-pencil-alt"></i>
+                        </div>
+                     </div>
+                     <div class="messages-section__message-wrapper-decor"></div>
+                  </div>
+                  <p class="messages-section__message-data messages-section__message-data--month-day-time">
+                     <span class="month-day-time">
+                        <span>Sat </span>,
+                        <span>Aug </span>
+                        <span>23</span>,
+                        <span> 1</span>:
+                        <span>10 </span>
+                        <span>PM</span>
+                     </span>
+                     <span class="minutes">
+                        <span>5</span>
+                        <span>minutes ago</span>
+                     </span>
+                     <span class="time">
+                        <span>3</span>:
+                        <span>10</span>
+                        <span> PM</span>
+                     </span>
+                     <span class="typing">
+                        <span>Typing...</span>
+                     </span>
+                  </p>
+               </div>
+               <!--  -->
+               <div class="messages-section__message-item messages-section__message-item--outgoing">
+                  <div class="messages-section__wrap-user-img"></div>
+                  <div class="messages-section__message-wrapper">
+                     <div class="messages-section__message-wrapper-text">
+                        <p>
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum congue leo eget
+                           malesuada. Vivamus suscipit tortor eget felis porttitor.&#9996;
+                        </p>
+                        <div class="wrap-typing">
+                           ... <i class="fas fa-pencil-alt"></i>
+                        </div>
+                     </div>
+                     <div class="messages-section__message-wrapper-decor"></div>
+                  </div>
+                  <p class="messages-section__message-data messages-section__message-data--month-day-time">
+                     <span class="month-day-time">
+                        <span>Sat </span>,
+                        <span>Aug </span>
+                        <span>23</span>,
+                        <span> 1</span>:
+                        <span>10 </span>
+                        <span>PM</span>
+                     </span>
+                     <span class="minutes">
+                        <span>5</span>
+                        <span>minutes ago</span>
+                     </span>
+                     <span class="time">
+                        <span>3</span>:
+                        <span>10</span>
+                        <span> PM</span>
+                     </span>
+                     <span class="typing">
+                        <span>Typing...</span>
+                     </span>
+                  </p>
+               </div>
+               <!--  -->
+               <div class="messages-section__message-item messages-section__message-item--incoming">
+                  <div class="messages-section__wrap-user-img"></div>
+                  <div class="messages-section__message-wrapper">
+                     <div class="messages-section__message-wrapper-text">
+                        <p>
+                           Cras ultricies ligula. &#128523;
+                        </p>
+                        <div class="wrap-typing">
+                           ... <i class="fas fa-pencil-alt"></i>
+                        </div>
+                     </div>
+                     <div class="messages-section__message-wrapper-decor"></div>
+                  </div>
+                  <p class="messages-section__message-data messages-section__message-data--minutes">
+                     <span class="month-day-time">
+                        <span>Sat </span>,
+                        <span>Aug </span>
+                        <span>23</span>,
+                        <span> 1</span>:
+                        <span>08 </span>
+                        <span>PM</span>
+                     </span>
+                     <span class="minutes">
+                        <span>5</span>
+                        <span>minutes ago</span>
+                     </span>
+                     <span class="time">
+                        <span>3</span>:
+                        <span>10</span>
+                        <span> PM</span>
+                     </span>
+                     <span class="typing">
+                        <span>Typing...</span>
+                     </span>
+                  </p>
+               </div>
+               <!--  -->
+               <div class="messages-section__message-item messages-section__message-item--outgoing">
+                  <div class="messages-section__wrap-user-img"></div>
+                  <div class="messages-section__message-wrapper">
+                     <div class="messages-section__message-wrapper-text">
+                        <p>
+                           Donec rutrum congue leo eget malesuada. Vivamus suscipit tortor eget felis porttitor.
+                           &#128563;
+                        </p>
+                        <div class="wrap-typing">
+                           ... <i class="fas fa-pencil-alt"></i>
+                        </div>
+                     </div>
+                     <div class="messages-section__message-wrapper-decor"></div>
+                  </div>
+                  <p class="messages-section__message-data messages-section__message-data--time">
+                     <span class="month-day-time">
+                        <span>Sat </span>,
+                        <span>Aug </span>
+                        <span>23</span>,
+                        <span> 1</span>:
+                        <span>08 </span>
+                        <span>PM</span>
+                     </span>
+                     <span class="minutes">
+                        <span>5</span>
+                        <span>minutes ago</span>
+                     </span>
+                     <span class="time">
+                        <span>3</span>:
+                        <span>10</span>
+                        <span> PM</span>
+                     </span>
+                     <span class="typing">
+                        <span>Typing...</span>
+                     </span>
+                  </p>
+               </div>
+               <!--  -->
+               <div
+                  class="messages-section__message-item messages-section__message-item--incoming messages-section__message-item--typing">
+                  <div class="messages-section__wrap-user-img"></div>
+                  <div class="messages-section__message-wrapper">
+                     <div class="messages-section__message-wrapper-text">
+                        <p>
+                           Vestibulum ante ipsum<br>
+                           primis in faucibus.
+                        </p>
+                        <div class="wrap-typing">
+                           ... <i class="fas fa-pencil-alt"></i>
+                        </div>
+                     </div>
+                     <div class="messages-section__message-wrapper-decor"></div>
+                  </div>
+                  <p class="messages-section__message-data messages-section__message-data--typing">
+                     <span class="month-day-time">
+                        <span>Sat </span>,
+                        <span>Aug </span>
+                        <span>23</span>,
+                        <span> 1</span>:
+                        <span>08 </span>
+                        <span>PM</span>
+                     </span>
+                     <span class="minutes">
+                        <span>5</span>
+                        <span>minutes ago</span>
+                     </span>
+                     <span class="time">
+                        <span>3</span>:
+                        <span>10</span>
+                        <span> PM</span>
+                     </span>
+                     <span class="typing">
+                        <span>Typing...</span>
+                     </span>
+                  </p>
+               </div>
+               <!--  -->
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+
+            </div>
+         </section>
+      </section>
+
+   </div>
+</body>
+
+</html>
